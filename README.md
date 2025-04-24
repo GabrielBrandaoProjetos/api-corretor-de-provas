@@ -25,7 +25,7 @@ migrate create -ext sql -dir migrations -seq <nome da tabela. ex: create_users>
 
 4. Execute as migrations:
 ```bash
-migrate -path migrations -database "postgresql://postgres:postgres@localhost:5432/gateway?sslmode=disable" up
+migrate -path migrations -database "postgresql://postgres:postgres@localhost:5432/corrector?sslmode=disable" up
 ```
 
 5. Gerar as querie:
